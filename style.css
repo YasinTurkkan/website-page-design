@@ -1,0 +1,331 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #35424A;
+  height: 100px;
+  border-bottom: 0.25rem solid #A9508B;
+}
+
+.home-header-title {
+  margin-left: 20px;
+
+}
+
+.header-company {
+  color: #A9508B;
+}
+
+.header-work {
+  color: white;
+}
+
+.home-navbar {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+}
+
+.home-navbar div a {
+  text-decoration: none;
+  padding: 1.875em;
+  color: white;
+
+}
+
+.home-navbar div a:hover {
+      color: #cccccc;
+    font-size: 1.125em;
+}
+
+#my-home a {
+  color: #a9508b;
+}
+
+.home-main-first-section {
+  display: flex;
+  background-image: url(Images/showcase.jpg);
+  min-height: 31.25em;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.main-title {
+  padding-top: 7rem;
+  padding-bottom: 0;
+}
+
+.home-main-first-section h1 {
+    padding: 112px;
+  font-size: 3.4375em;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main-first-section p {
+  font-size: 1.25em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.875em 5em;
+}
+
+.home-main-second-section {
+  background-color: #35424a;
+  width: 100%;
+  height: 6.25em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.home-main-second-section h1 {
+  font-size: 1.4375em;
+
+}
+
+#email {
+  width: 18.75em;
+  height: 2.5em;
+}
+
+#submit-btn {
+  height: 3em;
+  color: #fff;
+  background-color: #a9508b;
+  width: 6.25em;
+}
+
+form {
+  display: block;
+}
+
+.home-main-third-section {
+  width: 100%;
+  height: 16.875em;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0.1875em solid #a9508b;
+  align-items: center;
+}
+
+.home-main-third-section img {
+  width: 6.25em;
+}
+
+.job-logos {
+  text-align: center;
+  font-size: 0.9375em;
+}
+
+.general-footer {
+  text-align: center;
+  justify-content: center;
+  font-size: 0.9375em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.general-footer img {
+  width: 12.5em;
+  padding-top: 0.3125em;
+}
+
+
+
+.aboutservices-header{
+    background-color: #35424a;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    border-bottom: 0.25em solid #a9508b;
+
+}
+
+
+.aboutservices-header div h1 {
+    color: #fff;
+    padding: 1.875rem;
+    font-size: 2em;
+    font-family: arial;
+
+}
+
+.aboutservices-header div h1 span {
+    color: #a9508b;
+}
+.aboutservices-navbar{
+    display: flex;
+
+}
+
+.aboutservices-navbar div a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1.875em;
+    font-family: Arial;
+    font: size 1em;
+
+}
+
+.aboutservices-navbar div a:hover{
+    color: #cccccc;
+    font-size: 1.125em;
+
+}
+
+#nav-about a{
+    color: #a9508b;
+}
+
+#nav-about a:hover{
+    color: #cccccc;
+}
+
+.aboutservices-header-second-section {
+    background-color: #35424a;
+    width: 100%;
+    height: 6.25em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutservices-header-second-section h1{
+    font-size: 1.4375em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#email{
+    width: 18.75em;
+    height: 2.5em;
+}
+#submit-btn{
+    height: 3em;
+    color: #fff;
+    background-color: #a9508b;
+    width: 6.25em;
+}
+
+.about-main{
+    padding-left: 6.25em;
+    padding-right: 6.25em;
+    padding-bottom: 15em;
+    border-bottom: 3px solid #a9508b;
+    background-color: #f4f4f4;
+}
+.about-main-first-section{
+    width: 50%;
+    margin-bottom: 1.875em;
+}
+
+.about-main h1{
+    font-size: 1.125em;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1.25em;
+}
+
+.about-main p{
+    font-size: 0.9375em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.about-main-second-section{
+    background-color: #35424a;
+    color: #fff;
+    padding: 1.25em;
+    width: 50%;
+
+}
+
+.about-main-aside{
+    background-color: #35424a;
+    color: #fff;
+    position: absolute;
+    top: 15em;
+    bottom: 9.375em;
+    right: 11.875em;
+    width: 25%;
+    padding: 1.25em;
+}
+
+#nav-services a{
+    color: #a9508b;
+}
+
+#nav-services a:hover{
+    color: #cccccc;
+}
+
+.services-main{
+    background-color: #f4f4f4;
+    padding: 1.25em;
+    padding-left: 6.25em;
+}
+
+.services-main h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.625em;
+}
+
+.services-main p{
+    font-size: 0.9375em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services-main-first-section div{
+    border: 1px solid #e6e6e6;
+    background-color: #e6e6e6;
+    margin-bottom: 0.625em;
+    padding: 1.875em;
+    width: 50%;
+}
+
+.services-main-second-section {
+    background-color: #35424a;
+    width: 30%;
+    padding: 1.25em;
+    position: absolute;
+    right: 5em;
+    top: 14.375em;
+}
+.services-main-second-section label{
+    display: block;
+    color: #fff;
+    font-size: 0.9375em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services-main-second-section h3{
+    font-size: 1.125em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+
+.services-main-second-section input{
+    width: 90%;
+    height: 2em;
+}
+.services-main-second-section button{
+    background-color: #a9508b;
+    color: #fff;
+    width: 4.375em;
+    height: 2.5em;
+    border-radius: 0.625em;
+}
